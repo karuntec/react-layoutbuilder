@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.configuration-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  height: 35vh;
+  width: 100vh;
+  padding-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .configuration-container {
+    height: 35vh;
+    width: 100vw;
+  }
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 32px;
+  color: #f1f5f9;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.label-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
